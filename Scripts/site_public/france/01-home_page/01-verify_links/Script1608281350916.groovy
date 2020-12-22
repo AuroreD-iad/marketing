@@ -26,3 +26,4 @@ WebUI.verifyAllLinksOnCurrentPageAccessible(false, [])
 
 WebUI.closeBrowser()
 
+//

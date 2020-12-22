@@ -65,3 +65,4 @@ WebUI.verifyElementPresent(findTestObject('site_public/france/01-home_page/06-se
 
 WebUI.closeBrowser()
 
+//

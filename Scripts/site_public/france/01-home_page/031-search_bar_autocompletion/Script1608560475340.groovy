@@ -40,3 +40,4 @@ WebUI.verifyEqual(ville, villes)
 
 WebUI.closeBrowser(FailureHandling.STOP_ON_FAILURE)
 
+//
