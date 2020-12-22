@@ -47,7 +47,7 @@ WebUI.click(findTestObject('site_public/france/01-home_page/01-section_search/01
 
 WebUI.click(findTestObject('site_public/france/01-home_page/01-section_search/01-search_bar/01-type_bien/li_type_garage'))
 
-WebUI.click(findTestObject('null'))
+WebUI.click(findTestObject('site_public/france/01-home_page/01-section_search/01-search_bar/01-type_bien/li_type_commerce'))
 
 WebUI.click(findTestObject('site_public/france/01-home_page/01-section_search/01-search_bar/01-type_bien/li_type_batiment'))
 
