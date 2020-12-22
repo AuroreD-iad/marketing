@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>032-search_bar_fonctionality</name>
+   <name>020-verify_elements_on_the_page</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>bec26335-d009-475a-91b4-f1478b17793a</testCaseGuid>
+   <testCaseGuid>6d194158-bb66-46c1-930d-a460d1f08271</testCaseGuid>
 </TestCaseEntity>

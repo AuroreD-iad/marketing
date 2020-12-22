@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>06-page_who_are_we</name>
+   <name>050-page_press_area</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>f890daae-7de1-4bcb-be15-a4b72cceee30</testCaseGuid>
+   <testCaseGuid>923e3c1e-e2aa-47fd-bc1e-68022ee15152</testCaseGuid>
 </TestCaseEntity>
