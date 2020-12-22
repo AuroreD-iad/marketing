@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>030search_bar_autocompletion</name>
+   <name>030_search_bar_autocompletion</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>3943cb98-b966-49fb-b6d7-f2eee9953103</testCaseGuid>
