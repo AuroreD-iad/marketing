@@ -24,10 +24,10 @@ WebUI.maximizeWindow()
 WebUI.navigateToUrl('https://preprod.iadfrance.fr/')
 
 //initialisation des varibles dont une récupérant la data-slick-index de l'image en background pour vérifier que l'image change
-//index = WebUI.getAttribute(findTestObject('site_public/france/01-home_page/01-section_search/img_background_home'), 'data-slick-index')
-//
-//myindex = 0
-//
-//println ${index} 
-//
+index = WebUI.getAttribute(findTestObject('site_public/france/01-home_page/01-section_search/img_background_home'), 'data-slick-index')
+
+myindex = 0
+
+println ${index} 
+
 
