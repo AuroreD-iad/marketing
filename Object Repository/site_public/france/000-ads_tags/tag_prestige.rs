@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>h2_nos_derniere_annonces_immo</name>
+   <name>tag_prestige</name>
    <tag></tag>
-   <elementGuidId>06530b3b-5598-4fcb-ab00-792734b51f75</elementGuidId>
+   <elementGuidId>10fb25e3-27e9-4ef9-87a3-bcabc3bb835c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>h2.h3.title__main</value>
+         <key>XPATH</key>
+         <value>//div[@id='tabs-news-ads-1']/div/div/div/div[3]/div/div/div/div/span[2]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//section[@id='content']/div/h2</value>
+         <key>CSS</key>
+         <value>span.button.button__small.button__highlight.highlight__prestige</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,55 +21,62 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>h2</value>
+      <value>span</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>h3 title__main</value>
+      <value>button button__small button__highlight highlight__prestige</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Nos dernières annonces immobilièresprès de chez vous </value>
+      <value>Prestige</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;content&quot;)/div[@class=&quot;wrapper&quot;]/h2[@class=&quot;h3 title__main&quot;]</value>
+      <value>id(&quot;tabs-news-ads-1&quot;)/div[@class=&quot;slider__annonces slick-initialized slick-slider&quot;]/div[@class=&quot;slick-list draggable&quot;]/div[@class=&quot;slick-track&quot;]/div[@class=&quot;col-4 slick-slide slick-active&quot;]/div[@class=&quot;estate&quot;]/div[@class=&quot;c-offer&quot;]/div[@class=&quot;c-offer__img c-offer__img_fr&quot;]/div[@class=&quot;ribbons&quot;]/span[@class=&quot;button button__small button__highlight highlight__prestige&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//section[@id='content']/div/h2</value>
+      <value>//div[@id='tabs-news-ads-1']/div/div/div/div[3]/div/div/div/div/span[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='er'])[1]/following::h2[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nouveau'])[3]/following::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Nos dernières']/parent::*</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Exclusivité'])[2]/preceding::span[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Maison/villa de 250 m² - 5 chambres - CHÂTILLON-SUR-CHALARONNE'])[1]/preceding::span[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//section/div/h2</value>
+      <value>//div[3]/div/div/div/div/span[2]</value>
    </webElementXpaths>
 </WebElementEntity>

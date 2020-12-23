@@ -19,25 +19,22 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://preprod.iadfrance.fr/')
+WebUI.navigateToUrl('https://www.iadfrance.fr/')
 
-WebUI.maximizeWindow()
+WebUI.click(findTestObject('site_public/france/01-home_page/02-section_ads/02-dernieres_annonces/btn_voir_toutes_dernieres_annonces'))
 
-WebUI.setText(findTestObject('site_public/france/01-home_page/01-section_search/01-search_bar/11-input_where/input_saisie_localisation'), 
-    'pari')
+WebUI.verifyElementPresent(findTestObject('site_public/france/01-home_page/02-section_ads/02-dernieres_annonces/voir_toutes_les_dernieres_annonces/div_contenant_resultats'), 
+    0)
 
-dept = WebUI.getText(findTestObject('site_public/france/01-home_page/01-section_search/01-search_bar/11-input_where/li_departement'), 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('site_public/france/01-home_page/02-section_ads/02-dernieres_annonces/voir_toutes_les_dernieres_annonces/select_de_tri_plus_recents'), 
+    0)
 
-dep = 'Départements'
+WebUI.click(findTestObject('site_public/france/01-home_page/02-section_ads/02-dernieres_annonces/voir_toutes_les_dernieres_annonces/btn_page_2'))
 
-WebUI.verifyEqual(dept, dep)
+WebUI.click(findTestObject('site_public/france/01-home_page/02-section_ads/02-dernieres_annonces/voir_toutes_les_dernieres_annonces/btn_page_prev'))
 
-ville = WebUI.getText(findTestObject('site_public/france/01-home_page/01-section_search/01-search_bar/11-input_where/li_villes'))
+WebUI.click(findTestObject('site_public/france/01-home_page/02-section_ads/02-dernieres_annonces/voir_toutes_les_dernieres_annonces/btn_page_next'))
 
-villes = 'Villes'
-
-WebUI.verifyEqual(ville, villes)
-
-WebUI.closeBrowser(FailureHandling.STOP_ON_FAILURE)
+//il faudrait ici tester la cohérence du nombre d'nanonces réel et du nombre d'annonce affiché dans la div en haut de page
+WebUI.closeBrowser()
 

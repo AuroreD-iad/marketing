@@ -30,25 +30,28 @@ WebUI.verifyElementPresent(findTestObject('site_public/france/01-home_page/01-se
 
 WebUI.verifyElementPresent(findTestObject('site_public/france/01-home_page/01-section_search/btn_recherche'), 0)
 
-WebUI.verifyElementPresent(findTestObject('site_public/france/01-home_page/02-section_ads/h2_nos_derniere_annonces_immo'), 
+WebUI.verifyElementPresent(findTestObject('site_public/france/01-home_page/02-section_ads/00-elements_generiques/h2_nos_derniere_annonces_immo'), 
     0)
 
-WebUI.verifyElementPresent(findTestObject('site_public/france/01-home_page/02-section_ads/a_onglet_vendre'), 0)
+WebUI.verifyElementPresent(findTestObject('site_public/france/01-home_page/02-section_ads/00-elements_generiques/a_onglet_a_vendre'), 
+    0)
 
-WebUI.verifyElementPresent(findTestObject('site_public/france/01-home_page/02-section_ads/a_onglet_louer'), 0)
+WebUI.verifyElementPresent(findTestObject('site_public/france/01-home_page/02-section_ads/00-elements_generiques/a_onglet_louer'), 
+    0)
 
 WebUI.delay(3)
 
-WebUI.verifyElementClickable(findTestObject('site_public/france/01-home_page/02-section_ads/boutons_navigation/button_next'), 
+WebUI.verifyElementClickable(findTestObject('null'), 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('site_public/france/01-home_page/02-section_ads/boutons_navigation/button_previous_not_clickable'), 
+WebUI.verifyElementPresent(findTestObject('site_public/france/01-home_page/02-section_ads/01-boutons_navigation/onglet_a_vendre/button_previous_not_clickable'), 
     0)
 
-WebUI.verifyElementPresent(findTestObject('site_public/france/01-home_page/02-section_ads/btn_voir_toutes_dernieres_annonces'), 
+WebUI.verifyElementPresent(findTestObject('site_public/france/01-home_page/02-section_ads/02-dernieres_annonces/btn_voir_toutes_dernieres_annonces'), 
     0)
 
-WebUI.verifyElementPresent(findTestObject('site_public/france/01-home_page/02-section_ads/btn_voir_coup_de_coeur'), 0)
+WebUI.verifyElementPresent(findTestObject('site_public/france/01-home_page/02-section_ads/03-coups_de_coeur/btn_voir_coup_de_coeur'), 
+    0)
 
 WebUI.verifyElementPresent(findTestObject('site_public/france/01-home_page/03-section_engagement/btn_voir_avis'), 0)
 
@@ -65,4 +68,3 @@ WebUI.verifyElementPresent(findTestObject('site_public/france/01-home_page/06-se
 
 WebUI.closeBrowser()
 
-//

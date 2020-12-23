@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>btn_voir_coup_de_coeur</name>
+   <name>a_2</name>
    <tag></tag>
-   <elementGuidId>e8d5d634-1db5-4271-b1b4-1003d810b5e5</elementGuidId>
+   <elementGuidId>98664e36-22b7-426d-af5a-e6b4ba9943a9</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>a.button.button__third.button__medium.button__arrow.button__home.button__rounded</value>
+         <key>XPATH</key>
+         <value>//section[@id='content']/ul/li[2]/a</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='tabs-news-ads']/div/div/div[2]/a[2]</value>
+         <key>CSS</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -28,86 +28,69 @@
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>/rechercher/annonces?tags%5B0%5D=top</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>button button__third button__medium button__arrow button__home button__rounded</value>
+      <value>/rechercher/annonces?tags%5B0%5D=new&amp;sort=ad.firstPublishDate&amp;dir=desc&amp;page=2</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>
-                        
-                        Voir tous les coups de coeur                        
-                    </value>
+      <value>2</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;tabs-news-ads&quot;)/div[@class=&quot;l-tabs l-tabs__home&quot;]/div[@class=&quot;wrapper&quot;]/div[@class=&quot;text__center&quot;]/a[@class=&quot;button button__third button__medium button__arrow button__home button__rounded&quot;]</value>
+      <value>id(&quot;content&quot;)/ul[@class=&quot;pagination&quot;]/li[2]/a[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='tabs-news-ads']/div/div/div[2]/a[2]</value>
+      <value>//section[@id='content']/ul/li[2]/a</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>(//a[contains(text(),'2')])[12]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Voir toutes les dernières annonces'])[1]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='€'])[22]/following::a[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Next'])[2]/following::a[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Appartement à vendre à Paris 8e'])[1]/preceding::a[5]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('iad, ça fait du bien à l', &quot;'&quot;, 'immobilier')])[1]/preceding::a[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Voir les avis'])[1]/preceding::a[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Voir tous les coups de coeur']/parent::*</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Appartement à vendre à Paris 1er'])[1]/preceding::a[6]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[contains(@href, '/rechercher/annonces?tags%5B0%5D=top')]</value>
+      <value>//a[contains(@href, '/rechercher/annonces?tags%5B0%5D=new&amp;sort=ad.firstPublishDate&amp;dir=desc&amp;page=2')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/a[2]</value>
+      <value>//section/ul/li[2]/a</value>
    </webElementXpaths>
 </WebElementEntity>
