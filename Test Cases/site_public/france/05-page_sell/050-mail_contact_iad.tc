@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>070-terms_and_conditions</name>
+   <name>050-mail_contact_iad</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>a0cd2fa8-dd0b-46ba-b7ba-15dee204e303</testCaseGuid>
+   <testCaseGuid>00a7ae1b-8f12-4ba7-ba9b-59dd9a3291b1</testCaseGuid>
 </TestCaseEntity>

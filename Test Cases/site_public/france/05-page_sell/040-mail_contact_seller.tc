@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>025-verify_pics_move</name>
+   <name>040-mail_contact_seller</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>b0df2f55-69fc-464a-ba92-3f3c32c18d83</testCaseGuid>
+   <testCaseGuid>4905aa07-f7de-4ef6-8405-ec31b0e555ce</testCaseGuid>
 </TestCaseEntity>

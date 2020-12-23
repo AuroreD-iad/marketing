@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>060-page_who_are_we</name>
+   <name>025-verify_pics_move--todo</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>f890daae-7de1-4bcb-be15-a4b72cceee30</testCaseGuid>
+   <testCaseGuid>b0df2f55-69fc-464a-ba92-3f3c32c18d83</testCaseGuid>
 </TestCaseEntity>
