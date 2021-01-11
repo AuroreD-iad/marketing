@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>Vérfiie le switch automatique des images en background de la barre de recherche.</description>
    <name>025-verify_pics_move--todo</name>
    <tag></tag>
    <comment></comment>

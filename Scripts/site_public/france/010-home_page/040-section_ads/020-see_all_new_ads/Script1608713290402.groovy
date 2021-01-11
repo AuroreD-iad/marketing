@@ -19,9 +19,11 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://www.iadfrance.fr/')
+CustomKeywords.'site_public.open_home_page.accept_cookies'()
 
 WebUI.click(findTestObject('site_public/france/01-home_page/02-section_ads/02-dernieres_annonces/btn_voir_toutes_dernieres_annonces'))
+
+not_run: WebUI.click(findTestObject('site_public/france/01-home_page/00-cookies_didomi/btn_accept_cookies'))
 
 WebUI.verifyElementPresent(findTestObject('site_public/france/01-home_page/02-section_ads/02-dernieres_annonces/voir_toutes_les_dernieres_annonces/div_contenant_resultats'), 
     0)
@@ -33,7 +35,7 @@ WebUI.click(findTestObject('site_public/france/01-home_page/02-section_ads/02-de
 
 WebUI.click(findTestObject('site_public/france/01-home_page/02-section_ads/02-dernieres_annonces/voir_toutes_les_dernieres_annonces/btn_page_prev'))
 
-WebUI.click(findTestObject('site_public/france/01-home_page/02-section_ads/02-dernieres_annonces/voir_toutes_les_dernieres_annonces/btn_page_next'))
+WebUI.click(findTestObject('site_public/france/01-home_page/02-section_ads/02-dernieres_annonces/voir_toutes_les_dernieres_annonces/btn_page_next_page1'))
 
 //il faudrait ici tester la cohérence du nombre d'nanonces réel et du nombre d'annonce affiché dans la div en haut de page
 WebUI.closeBrowser()

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//section[@id='content']/ul/li/a/i</value>
+         <value>//ul[@class='pagination']//a[@class='previous']</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -42,7 +42,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//section[@id='content']/ul/li/a/i</value>
+      <value>//ul[@class='pagination']//a[@class='previous']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

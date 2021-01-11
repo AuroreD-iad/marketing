@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='tabs-news-ads']/div/div/div[2]/a</value>
+         <value>//a[contains(text(), 'toutes les dernières annonces')]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -58,7 +58,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='tabs-news-ads']/div/div/div[2]/a</value>
+      <value>//a[contains(text(), 'toutes les dernières annonces')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//form[@id='searchForm']/div[2]/a</value>
+         <value>//a[contains(text(),'de critères')] </value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -57,7 +57,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='searchForm']/div[2]/a</value>
+      <value>//a[contains(text(),'de critères')] </value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

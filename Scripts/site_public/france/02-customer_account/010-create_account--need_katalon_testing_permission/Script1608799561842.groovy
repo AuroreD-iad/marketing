@@ -21,7 +21,7 @@ WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
-WebUI.navigateToUrl('https://preprod.iadfrance.fr/')
+WebUI.navigateToUrl(GlobalVariable.home_page)
 
 WebUI.click(findTestObject('site_public/france/02-menu/001-creer_un_compte/000-menu_btn_user/menu_icone_user'))
 

@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>li_tag_nouveau</name>
+   <name>btn_page_next_other_pages</name>
    <tag></tag>
-   <elementGuidId>d42eb290-5f62-4244-b064-024d8b4f0653</elementGuidId>
+   <elementGuidId>ed4502bc-d8a6-4980-aceb-b1858316a6f8</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>//li[@itemprop='url']/a[@class='next']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//li[@data-value='new_building']</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -20,50 +20,34 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>li</value>
+      <value>i</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>data-value</name>
+      <name>class</name>
       <type>Main</type>
-      <value>new</value>
+      <value>demo-icon icon-arrow-right</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>
-                            
-                            Nouveau                        </value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;searchForm&quot;)/div[@class=&quot;form__box__more is-active&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-6&quot;]/div[@class=&quot;c-select multiple is-active has-value&quot;]/ul[1]/li[3]</value>
+      <value>id(&quot;content&quot;)/ul[@class=&quot;pagination&quot;]/li[6]/a[@class=&quot;next&quot;]/i[@class=&quot;demo-icon icon-arrow-right&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//li[@data-value='new_building']</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Nouveau']/parent::*</value>
+      <value>//li[@itemprop='url']/a[@class='next']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/ul/li[3]</value>
+      <value>//section/ul/li[6]/a/i</value>
    </webElementXpaths>
 </WebElementEntity>

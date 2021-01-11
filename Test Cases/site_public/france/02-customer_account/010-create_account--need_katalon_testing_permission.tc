@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>Vérifie que la fonctionnalité créer un compte est opérationnelle.</description>
    <name>010-create_account--need_katalon_testing_permission</name>
    <tag></tag>
    <comment></comment>

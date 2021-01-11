@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='search-home']/div/div/a</value>
+         <value>//div[@id='search-home']/descendant::a[contains (text(), 'Acheter')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -50,7 +50,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='search-home']/div/div/a</value>
+      <value>//div[@id='search-home']/descendant::a[contains (text(), 'Acheter')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//form[@id='searchForm']/div[2]/div/div[2]/div/a</value>
+         <value>//div[@data-name='Surface min/max']/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -49,7 +49,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='searchForm']/div[2]/div/div[2]/div/a</value>
+      <value>//div[@data-name='Surface min/max']/a</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>Vérifie l'auto-complétion de la barre de recherche.
+Ne fonctionne que si la barre de recherche n'est pas en erreur 500 (fréquent en preprod).</description>
    <name>030_search_bar_autocompletion</name>
    <tag></tag>
    <comment></comment>

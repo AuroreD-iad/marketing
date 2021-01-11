@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>btn_page_next</name>
+   <name>btn_page_next_page1</name>
    <tag></tag>
    <elementGuidId>09a1090a-b5f5-4395-81fc-cf858662d437</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//section[@id='content']/ul/li[6]/a/i</value>
+         <value>//li[@itemprop='url']/a[@class=' next']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -42,7 +41,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//section[@id='content']/ul/li[6]/a/i</value>
+      <value>//li[@itemprop='url']/a[@class=' next']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

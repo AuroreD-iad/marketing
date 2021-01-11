@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>Vérifie que lors de la création d'un compte, une notification est envoyée et permet de valider la création de compte.</description>
    <name>020-validate_create_account</name>
    <tag></tag>
    <comment></comment>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>Vérifie que le bouton &quot;voir tous les coups de coeur&quot; est fonctionnel et que la landing page permet une navigation entre les annonces coups de coeur.</description>
    <name>030-see_all_coups_coeur</name>
    <tag></tag>
    <comment></comment>

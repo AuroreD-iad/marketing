@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='type_mandat']/a</value>
+         <value>//div[@data-name='Étendre la recherche']/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -49,7 +49,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='type_mandat']/a</value>
+      <value>//div[@data-name='Étendre la recherche']/a</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>Vérifie la possibilité de visueliser les annonces suivant ou précédents de la section annonces de la page d'accueil.</description>
    <name>010-navigate_ads</name>
    <tag></tag>
    <comment></comment>

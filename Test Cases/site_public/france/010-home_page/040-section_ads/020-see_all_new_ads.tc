@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>Vérifier que le click sur le bouton &quot;voir toutes les annonces&quot; fonctionne et que la landing page permet bien une navigation au sein des annonces.</description>
    <name>020-see_all_new_ads</name>
    <tag></tag>
    <comment></comment>

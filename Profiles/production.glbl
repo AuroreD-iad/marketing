@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>production</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description>Page d'accueil du Site Public</description>
+      <initValue>'https://iadfrance.fr/'</initValue>
+      <name>home_page</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

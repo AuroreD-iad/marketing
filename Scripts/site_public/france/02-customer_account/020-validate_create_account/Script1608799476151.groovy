@@ -20,7 +20,7 @@ import org.openqa.selenium.Keys as Keys
 WebUI.callTestCase(findTestCase('site_public/france/02-customer_account/010-create_account--need_katalon_testing_permission'), 
     [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.openBrowser('https://preprod-pub.mail.iadholding.com/#/')
+WebUI.openBrowser(GlobalVariable.null)
 
 not_run: WebUI.maximizeWindow()
 

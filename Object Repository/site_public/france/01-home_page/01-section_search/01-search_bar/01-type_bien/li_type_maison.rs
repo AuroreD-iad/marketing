@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//form[@id='searchForm']/div[2]/div/div/div/ul/li[2]</value>
+         <value>//li[@data-value='MV']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

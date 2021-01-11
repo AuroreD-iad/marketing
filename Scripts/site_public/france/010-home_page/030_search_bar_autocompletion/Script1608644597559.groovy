@@ -19,9 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://preprod.iadfrance.fr/')
-
-WebUI.maximizeWindow()
+CustomKeywords.'site_public.open_home_page.accept_cookies'()
 
 WebUI.setText(findTestObject('site_public/france/01-home_page/01-section_search/01-search_bar/11-input_where/input_saisie_localisation'), 
     'pari')

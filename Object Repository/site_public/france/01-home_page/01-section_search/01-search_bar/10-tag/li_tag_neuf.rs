@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//form[@id='searchForm']/div[2]/div[3]/div[2]/div/ul/li[6]</value>
+         <value>//li[@data-value='new']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -51,7 +50,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='searchForm']/div[2]/div[3]/div[2]/div/ul/li[6]</value>
+      <value>//li[@data-value='new']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

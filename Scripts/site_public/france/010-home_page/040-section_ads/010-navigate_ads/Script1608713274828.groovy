@@ -19,13 +19,9 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.maximizeWindow()
-
-WebUI.navigateToUrl('https://preprod.iadfrance.fr/')
+CustomKeywords.'site_public.open_home_page.accept_cookies'()
 
 WebUI.delay(3)
-
-WebUI.click(findTestObject('site_public/france/01-home_page/001-btn_accept_cookies'))
 
 WebUI.click(findTestObject('site_public/france/01-home_page/02-section_ads/01-boutons_navigation/onglet_louer/a_onglet_louer'))
 

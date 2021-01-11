@@ -19,9 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.maximizeWindow()
-
-WebUI.navigateToUrl('https://preprod.iadfrance.fr/')
+CustomKeywords.'site_public.open_home_page.accept_cookies'()
 
 WebUI.verifyElementPresent(findTestObject('site_public/france/01-home_page/000-header_full_menu'), 0)
 
@@ -40,9 +38,6 @@ WebUI.verifyElementPresent(findTestObject('site_public/france/01-home_page/02-se
     0)
 
 WebUI.delay(3)
-
-WebUI.verifyElementClickable(findTestObject('null'), 
-    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementPresent(findTestObject('site_public/france/01-home_page/02-section_ads/01-boutons_navigation/onglet_a_vendre/button_previous_not_clickable'), 
     0)

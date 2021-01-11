@@ -18,12 +18,9 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
-WebUI.maximizeWindow()
-
-WebUI.navigateToUrl('https://preprod.iadfrance.fr/')
+CustomKeywords.'site_public.open_home_page.accept_cookies'()
 
 WebUI.verifyAllLinksOnCurrentPageAccessible(false, [])
 
 WebUI.closeBrowser()
 
-//
