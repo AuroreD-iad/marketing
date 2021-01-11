@@ -8,7 +8,7 @@ Ce repository a été créé par l'équipe Qualité dédiée aux produits market
 
 ## Quoi ?
 
-Il est destiné à tester les fonctionnalités des applications marketing à l'aide de tests automatisés.
+Il est destiné à tester les fonctionnalités des applications marketing à l'aide de tests automatisés sur le logiciel Katalon Studio.
 
 ## Quand ?
 
