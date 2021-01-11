@@ -31,7 +31,7 @@ Puis, coller le lien vers le repository :https://github.com/AuroreD-iad/marketin
 
 ## Rappels  
 
-* __la branche Master ne doit contenir que des tests fonctionnels__  
-* Toute création de script ou modification doit au préalable être réalisée sur une branche tirée de la banche master.  
-'Dès lors que le code est fonctionnel, il est possible de créer une __pull request__ qui sera validée par un testeur de l'équipe marketing avant d'être mergée sur Master.'  
-* Si plusieurs personnes travaillent en simultané sur le repository, toujours penser à pull le code issu de la branche master afin d'éviter les conflits éventuels.  
+1. __la branche Master ne doit contenir que des tests fonctionnels__  
+2. Toute création de script ou modification doit au préalable être réalisée sur une branche tirée de la banche master.  
+*Dès lors que le code est fonctionnel, il est possible de créer une __pull request__ qui sera validée par un testeur de l'équipe marketing avant d'être mergée sur Master. 
+3. Si plusieurs personnes travaillent en simultané sur le repository, toujours penser à pull le code issu de la branche master afin d'éviter les conflits éventuels.  
