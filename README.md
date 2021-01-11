@@ -22,7 +22,7 @@ Il est donc nécessaire de régulièrement pull la branche master avant de trava
 ## Comment installer le repository marketing ?
 
 __Pré-requis pour travailler sur ce repository__  
-Disposer de __*Katalon Studio*__ connecté à Git Hub 
+Disposer de __*Katalon Studio*__ connecté à Git Hub  
 Deux manières de récupérer le repository afin de travailler dessus :  
   
 1. Pour ouvrir le repository Git Hub dans Katalon Studio, cliquer sur clone project dans la zone __"Test Explorer"__  
