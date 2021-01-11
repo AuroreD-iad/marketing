@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteCollectionEntity>
    <description>Test sur demo et prod</description>
-   <name>env_prod_et_demo_test_collection</name>
+   <name>env_prod_et_preprod_test_collection</name>
    <tag></tag>
    <executionMode>PARALLEL</executionMode>
    <maxConcurrentInstances>8</maxConcurrentInstances>

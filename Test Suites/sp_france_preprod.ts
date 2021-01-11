@@ -4,7 +4,7 @@
    <name>sp_france_preprod</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <mailRecipient>camille.goret@iadinternational.com;aurore.david@iadinternational.com;</mailRecipient>
+   <mailRecipient></mailRecipient>
    <numberOfRerun>2</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
