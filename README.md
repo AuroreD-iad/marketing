@@ -26,5 +26,5 @@ __Pré-requis pour travailler sur ce repository__
   1. Pour ouvrir le repository Git Hub dans Katalon Studio, cliquer sur clone project dans la zone __"Test Explorer"__  
   * Coller le lien vers le repository :https://github.com/AuroreD-iad/marketing.git  
   __OU__  
-2. Dans la barre de menu en haut, cliquer sur l'icône Git et sélectionner __"ClonePproject"__  
+2. Dans la barre de menu en haut, cliquer sur l'icône Git et sélectionner __"Clone Project"__  
   * Coller le lien vers le repository :https://github.com/AuroreD-iad/marketing.git
