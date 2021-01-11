@@ -1,7 +1,7 @@
 # marketing
 
 
-[h2]Who ?
+(h2)Who ?
 
 Ce repository a été créé par l'équipe Qualité dédiée aux produits marketing de l'entreprise iad international.
 
