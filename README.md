@@ -22,9 +22,16 @@ Il est donc nécessaire de régulièrement pull la branche master avant de trava
 ## Comment installer le repository marketing ?
 
 __Pré-requis pour travailler sur ce repository__  
-Disposer de __*Katalon Studio*__ connecté à Git Hub  
+Disposer de __*Katalon Studio*__ connecté à Git Hub.  
 Deux manières de récupérer le repository afin de travailler dessus :  
   
 1. Pour ouvrir le repository Git Hub dans Katalon Studio, cliquer sur clone project dans la zone __"Test Explorer"__  
 2. Dans la barre de menu en haut, cliquer sur l'icône Git et sélectionner __"Clone Project"__  
 Puis, coller le lien vers le repository :https://github.com/AuroreD-iad/marketing.git
+
+## Rappels  
+
+* __la branche Master ne doit contenir que des tests fonctionnels__  
+* Toute création de script ou modification doit au préalable être réalisée sur une branche tirée de la banche master.
+*' Dès lors que le code est fonctionnel, il est possible de créer une __pull request__ qui sera validée par un testeur de l'équipe marketing avant d'être mergée sur Master.
+* Si plusieurs personnes travaillent en simultané sur le repository, toujours penser à pull le code issu de la branche master afin d'éviter les conflits éventuels.
