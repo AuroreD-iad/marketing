@@ -1,25 +1,25 @@
 # marketing
 
 
-(h2)Who ?
+[h2]Who ?[/h2]
 
 Ce repository a été créé par l'équipe Qualité dédiée aux produits marketing de l'entreprise iad international.
 
 
-[h2]What ?
+[h2]What ?[/h2]
 
 Il est destiné à tester les fonctionnalités des applications marketing à l'aide de tests automatisés.
 
-[h2]When ?
+[h2]]When ?[/h2]
 
 Ce repository a été créé à la fin de l'année 2020 lors de la création de premiers tests automatisés sur le Site Public.
 
-[h2]Etat d'avancement
+[h2]Etat d'avancement[/h2]
 
 L'automatisation des produits iad étant récente et les produits en perpetuelle évolution/création, ce répository est amené a évoluer régulièrement.
 Il est donc nécessaire de régulièrement pull la branche master avant de travailler sur ce repository pour être à jour et éviter les conflits.
 
-[h2]Comment installer le repository marketing ?
+[h2]Comment installer le repository marketing ?[/h2]
 
 __Pré-requis pour travailler sur ce repository__
 * Disposer de __*Katalon Studio*__ connecté à Git Hub
