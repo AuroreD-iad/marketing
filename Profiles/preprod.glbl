@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>preprod</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description>page d'accueil du site public</description>
+      <initValue>'https://preprod.iadfrance.fr/'</initValue>
+      <name>home_page</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>adresse mail de test</description>
+      <initValue>'https://preprod-pub.mail.iadholding.com/#/'</initValue>
+      <name>mail_dev</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

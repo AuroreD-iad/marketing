@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//ul[@id='ui-id-1']/li[2]</value>
+         <value>//li[@aria-label=contains(text(), 'Départements : &lt;strong>Paris&lt;/strong> ')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -56,7 +56,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//ul[@id='ui-id-1']/li[2]</value>
+      <value>//li[@aria-label='Départements : &lt;strong>Paris&lt;/strong> ']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

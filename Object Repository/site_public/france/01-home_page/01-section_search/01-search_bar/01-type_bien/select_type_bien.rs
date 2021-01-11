@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//form[@id='searchForm']/div[2]/div/div/div/a</value>
+         <value>//div[@data-name='Type(s) de bien']/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -49,7 +49,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='searchForm']/div[2]/div/div/div/a</value>
+      <value>//div[@data-name='Type(s) de bien']/a</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

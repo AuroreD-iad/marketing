@@ -10,7 +10,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//ul[@id='ui-id-1']/li[3]</value>
+         <value>//ul[@id='ui-id-1']/li[contains(text(),'Villes')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -48,7 +48,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//ul[@id='ui-id-1']/li[3]</value>
+      <value>//ul[@id='ui-id-1']/li[contains(text(),'Villes')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

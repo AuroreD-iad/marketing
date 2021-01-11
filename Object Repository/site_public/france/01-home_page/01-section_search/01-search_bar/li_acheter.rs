@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//ul[@id='search-nav']/li</value>
+         <value>//li[@data-value='Vente']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -50,7 +50,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//ul[@id='search-nav']/li</value>
+      <value>//li[@data-value='Vente']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

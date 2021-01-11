@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//form[@id='searchForm']/div[2]/div[5]/div/div[2]/div/a</value>
+         <value>//div[@data-name='Type de mandat']/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -49,7 +48,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='searchForm']/div[2]/div[5]/div/div[2]/div/a</value>
+      <value>//div[@data-name='Type de mandat']/a</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

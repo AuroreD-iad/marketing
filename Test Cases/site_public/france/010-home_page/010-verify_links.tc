@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>Vérifie que tous les liens contenus par la page d'accueil sont fonctionnels.
+Erreur en preprod.</description>
    <name>010-verify_links</name>
    <tag></tag>
    <comment></comment>

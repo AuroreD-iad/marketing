@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//ul[@id='ui-id-1']/li</value>
+         <value>//ul[@id='ui-id-1']/li[contains(text(),'Départements')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

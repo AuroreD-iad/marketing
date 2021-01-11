@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//ul[@id='search-nav']/li[2]</value>
+         <value>//li[@data-value='Location']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -50,7 +49,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//ul[@id='search-nav']/li[2]</value>
+      <value>//li[@data-value='Location']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

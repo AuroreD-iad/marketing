@@ -19,11 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://preprod.iadfrance.fr/')
-
-WebUI.maximizeWindow()
-
-WebUI.waitForPageLoad(0)
+'ouvrir la home page et accepter les cookies Didomi'
+CustomKeywords.'site_public.open_home_page.accept_cookies'()
 
 WebUI.click(findTestObject('site_public/france/01-home_page/01-section_search/01-search_bar/00-type_recherche_vente_location/select_type_recherche_titre_acheter'))
 
@@ -44,6 +41,9 @@ WebUI.click(findTestObject('site_public/france/01-home_page/01-section_search/01
 WebUI.click(findTestObject('site_public/france/01-home_page/01-section_search/01-search_bar/01-type_bien/li_type_maison'))
 
 WebUI.click(findTestObject('site_public/france/01-home_page/01-section_search/01-search_bar/01-type_bien/li_type_maison'))
+
+WebUI.waitForElementVisible(findTestObject('site_public/france/01-home_page/01-section_search/01-search_bar/01-type_bien/li_type_garage'), 
+    0)
 
 WebUI.click(findTestObject('site_public/france/01-home_page/01-section_search/01-search_bar/01-type_bien/li_type_garage'))
 
@@ -195,11 +195,10 @@ WebUI.setText(findTestObject('site_public/france/01-home_page/01-section_search/
 
 WebUI.click(findTestObject('site_public/france/01-home_page/01-section_search/01-search_bar/11-input_where/li_paris'))
 
-WebUI.click(findTestObject('site_public/france/01-home_page/01-section_search/01-search_bar/button_recherche'))
+not_run: WebUI.click(findTestObject('site_public/france/01-home_page/01-section_search/01-search_bar/button_recherche'))
 
 WebUI.verifyElementPresent(findTestObject('site_public/france/01-home_page/01-section_search/resultats_recherche/div_resultat_recherche'), 
     0)
 
 WebUI.closeBrowser()
 
-//
