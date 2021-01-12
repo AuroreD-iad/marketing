@@ -34,6 +34,8 @@ WebUI.click(findTestObject('site_public/france/01-home_page/01-section_search/01
 
 WebUI.click(findTestObject('site_public/france/01-home_page/01-section_search/01-search_bar/btn_plus_criteres'))
 
+WebUI.delay(3)
+
 WebUI.click(findTestObject('site_public/france/01-home_page/01-section_search/01-search_bar/01-type_bien/select_type_bien'))
 
 WebUI.click(findTestObject('site_public/france/01-home_page/01-section_search/01-search_bar/01-type_bien/li_type_appartement'))

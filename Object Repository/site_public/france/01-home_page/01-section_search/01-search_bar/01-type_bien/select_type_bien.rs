@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@data-name='Type(s) de bien']/a</value>
+         <value>//form[@id='searchForm']//a[contains(text(),'Type(s) de bien')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -49,7 +49,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@data-name='Type(s) de bien']/a</value>
+      <value>//form[@id='searchForm']//a[contains(text(),'Type(s) de bien')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
