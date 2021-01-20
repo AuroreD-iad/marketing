@@ -197,7 +197,7 @@ WebUI.setText(findTestObject('site_public/france/01-home_page/01-section_search/
 
 WebUI.click(findTestObject('site_public/france/01-home_page/01-section_search/01-search_bar/11-input_where/li_paris'))
 
-not_run: WebUI.click(findTestObject('site_public/france/01-home_page/01-section_search/01-search_bar/button_recherche'))
+WebUI.click(findTestObject('site_public/france/01-home_page/01-section_search/01-search_bar/button_recherche'))
 
 WebUI.verifyElementPresent(findTestObject('site_public/france/01-home_page/01-section_search/resultats_recherche/div_resultat_recherche'), 
     0)

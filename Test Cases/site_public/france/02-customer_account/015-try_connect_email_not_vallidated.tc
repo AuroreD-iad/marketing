@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Ce cas de test à pour but de vérifier que lorsque la création de compte n'a pas été validée en cliquant sur le lien de l'email de validation de création de compte, la connection est impossible (message &quot;le compte est désactivé).</description>
+   <name>015-try_connect_email_not_vallidated</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>78db3551-3faf-4780-8626-5b65f28f6d6b</testCaseGuid>
+</TestCaseEntity>

@@ -6,12 +6,16 @@
    <elementGuidId>ffb39064-0eaa-473c-b9af-a34459671251</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.c-select.multiple > a</value>
+         <key>BASIC</key>
+         <value>//*[@href = '#' and (text() = 'Type(s) de bien' or . = 'Type(s) de bien')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//form[@id='searchForm']//a[contains(text(),'Type(s) de bien')]</value>
+         <value>//div[@data-name='Type(s) de bien']/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.c-select.multiple > a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -49,7 +53,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='searchForm']//a[contains(text(),'Type(s) de bien')]</value>
+      <value>//div[@data-name='Type(s) de bien']/a</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

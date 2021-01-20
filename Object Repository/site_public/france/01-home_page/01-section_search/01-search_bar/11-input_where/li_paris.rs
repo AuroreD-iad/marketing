@@ -6,12 +6,16 @@
    <elementGuidId>efac1f9a-fe18-4633-a7b4-5619069b1e28</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>li.ui-menu-item</value>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Paris ' or . = 'Paris ')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//li[@aria-label=contains(text(), 'Départements : &lt;strong>Paris&lt;/strong> ')]</value>
+         <value>//ul[@id='ui-id-1']/li[@aria-label='Départements : &lt;strong>Pari&lt;/strong>s ']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>li.ui-menu-item</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -56,7 +60,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//li[@aria-label='Départements : &lt;strong>Paris&lt;/strong> ']</value>
+      <value>//ul[@id='ui-id-1']/li[@aria-label='Départements : &lt;strong>Pari&lt;/strong>s ']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

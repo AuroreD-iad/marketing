@@ -6,8 +6,12 @@
    <elementGuidId>ec458d59-3396-4eec-8302-a7e1805eda10</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>id(&quot;content&quot;)/ul[@class=&quot;pagination&quot;]/li[1]/a[@class=&quot;previous&quot;]/i[@class=&quot;demo-icon icon-arrow-left&quot;]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>//ul[@class='pagination']//a[@class='previous']</value>
+         <value>//ul[@class='pagination']/descendant::a[@rel='prev' and @class='previous']</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -42,7 +46,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//ul[@class='pagination']//a[@class='previous']</value>
+      <value>//ul[@class='pagination']/descendant::a[@rel='prev' and @class='previous']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
